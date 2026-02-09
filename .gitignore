@@ -91,8 +91,14 @@ ipython_config.py
 #   fail to install all dependencies.
 #Pipfile.lock
 
-# PEP 582; used by e.g. pdm
-__pypackages__/
+# Custom for this project
+ffmpeg.exe
+*.zip
+*.exe
+*.dll
+*.app
+*.dmg
+*.pkg
 
 # Celery stuff
 celerybeat-schedule
