@@ -25,10 +25,6 @@
 -   **Windows 版**：绿色免安装，内置 FFmpeg 驱动，拖拽即用。
 -   **macOS 版**：完美适配苹果系统，支持 `.app` 原生运行。
 
-### 🛠️ 开发者与小白友好
--   **对于小白**：直接将音乐文件拖入界面，点击“开始处理”即可。
--   **对于专业人士**：支持分析原始响度与动态范围（LRA），实时日志显示处理链条。
-
 ---
 
 <a name="english"></a>
@@ -44,22 +40,23 @@ Struggling with background music that's either too loud, masks the vocals, or so
 -   **Smart Vocal Avoidance**: Built-in professional EQ curves to optimize the ~1500Hz vocal frequency range, ensuring the BGM never masks the narrator.
 -   **Sound Field Enhancement**: Three presets (Original, Slight Expansion, Wide Sound Field) to create an immersive spatial experience.
 -   **Denoising & Low-cut**: Automatically filters out sub-50Hz noise and ambient hiss for crystal-clear audio.
--   **Two Processing Grades**:
-    -   **v2.5 Mastering Grade**: Focuses on extreme audio fidelity and detail.
-    -   **v2.7 Broadcast Grade**: Focuses on industry-standard loudness and dynamic range control.
-
-### 💻 Platform Support
--   **Windows**: Portable version with built-in FFmpeg. Just drag and drop.
--   **macOS**: Native `.app` support for seamless integration.
-
-### 🛠️ Easy to Use
--   **For Beginners**: Simply drag your audio files into the window and hit "Start".
--   **For Pros**: Includes loudness/LRA analysis and real-time processing logs.
 
 ---
 
-### 📥 Download / 下载
-Please visit the [Releases](https://github.com/cscb603/Background-Music-Processor/releases) page to download the latest binaries for Win/Mac.
+### 🛠️ 简单易用 (Easy to Use)
+- **小白用户 (For Beginners)**：
+  - **直接下载**：请在 [Releases](https://github.com/cscb603/Background-Music-Processor/releases) 页面下载对应系统的压缩包。
+  - **独立运行**：下载后解压，直接运行 `.exe` (Win) 或 `.app` (Mac) 即可。**无需安装 Python，无需手动配置 FFmpeg**，所有依赖已内置。
+  - **安全提示**：本工具基于开源的音频标准 FFmpeg 开发，绿色安全，不会修改您的系统设置。
+- **开发者/源码运行 (For Developers)**：
+  - 环境要求：Python 3.8+
+  - 依赖库：`pip install PyQt5`
+  - 音频引擎：确保 `ffmpeg` 在程序同目录下或已添加至系统环境变量。
+
+---
+
+### 📥 下载 / Download
+请前往 [Releases](https://github.com/cscb603/Background-Music-Processor/releases) 页面下载最新版本的成品。
 
 ---
 **Powered by StarTAP (星TAP) & FFmpeg**
